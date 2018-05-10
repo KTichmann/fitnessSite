@@ -1,0 +1,49 @@
+.about{
+  position: relative;
+  box-sizing: border-box;
+  height: 35rem;
+  display: flex;
+  padding: 4.47rem 8rem;
+  padding-right: 0;
+  align-items: center;
+  &__title{
+    .title-secondary{
+      margin-right: 4rem;
+      color: black;
+    }
+  }
+  &__blurb{
+    &-first{
+      padding-left: 3rem;
+    }
+    h1{
+      position: relative;
+      text-transform: uppercase;
+      margin-top: 2rem;
+      font-size: 1.25rem;
+      width: 5rem;
+      margin-bottom: 0rem;
+      padding-left: 2rem;
+    }
+    p{
+      color: black;
+      margin-top: 3rem;
+      padding-left: 2rem;
+      line-height: 1.3rem;
+    }
+    img{
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+    }
+  }
+  .orange{
+    position: absolute;
+    z-index: -1;
+    top: 4.5rem;
+    right: 0;
+    width: 60rem;
+    height: 16rem;
+    background-color: $mainOrange;
+  }
+}

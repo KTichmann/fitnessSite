@@ -1,0 +1,14 @@
+.titleSection{
+  height: 95vh;
+  background: url("../../assets/images/image1.jpg") fixed;
+  background-size:cover;
+  background-position: center;
+  &__wording{
+    width: 31.5rem;
+    padding-left: 43.3rem;
+    padding-top: 3rem;
+    .title{
+      padding-bottom: 1.5rem;
+    }
+  }
+}

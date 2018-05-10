@@ -1,0 +1,31 @@
+.watch{
+  height: 39.56rem;
+  box-sizing: border-box;
+  position: relative;
+  padding: 10.78rem 0;
+  .orange{
+    padding-left: 15rem;
+    background-color: $mainOrange;
+    height: 19.73rem;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: -1;
+    box-sizing: border-box;
+    .title-secondary{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20rem;
+    }
+  }
+  img{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

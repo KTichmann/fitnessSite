@@ -1,0 +1,46 @@
+.services{
+  display: flex;
+  height: 39.46rem;
+  &__description{
+    position: relative;
+    background-color: $mainOrange;
+    width: 50vw;
+    .title{
+      width: 12rem;
+    }
+    .center{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding-left: 6.55rem;
+      width: 18.3rem;
+    }
+    button{
+      margin-top: 2rem;
+    }
+  }
+  &__images{
+    width: 50vw;
+    position: relative;
+    table{
+      position: absolute;
+      transform: translateY(-50%);
+      right: 1rem;
+      top: 50%;
+      width: 30.27rem;
+      height: 30.27rem;
+      color: black;
+      h1{
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+      p{
+        margin-bottom: 1rem;
+      }
+      img{
+        width: 190px;
+        height: 140px;
+      }
+    }
+  }
+}

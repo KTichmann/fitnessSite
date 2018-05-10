@@ -1,0 +1,23 @@
+.businessBlurb{
+  display: flex;
+  height: 38.5rem;
+  .imgLeft{
+    width: 37.53rem;
+    height: 100%;
+    background: url("../../assets/images/image2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .descRight{
+    padding: 9rem 0;
+    padding-left: 5.775rem;
+    background-color: $mainPurple;
+    width: 49rem;
+    .description{
+      width: 27rem;
+    }
+    .title-secondary{
+      width: 22rem;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.product{
+  display: flex;
+  height: 39.45rem;
+  width: 100%;
+  &__description{
+    width: 65vw;
+    padding: 4.4rem 0;
+    padding-left: 11.26rem;
+    background-color: $mainPurple;
+    .title{
+      width: 22rem;
+    }
+  }
+  table{
+    margin-top: 4.5rem;
+    tr{
+      td{
+        width: 15rem;
+        padding-right: 2.4rem;
+        padding-bottom: 1.5rem;
+        .heading{
+          text-transform: uppercase;
+          margin-bottom: 1rem;
+          font-size: 1.12rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  &__img{
+    width: 40vw;
+    position: relative;
+    img{
+      position: absolute;
+      width: 500px;
+      height: 600px;
+      left: -12rem;
+      top: 50%;
+      transform: translateY(-47.5%);
+    }
+  }
+  &-right{
+    .product__description{
+      padding-left: 15.9rem;
+    }
+    .product__img{
+      img{
+        left: 10rem;
+      }
+    }
+  }
+  .section{
+    margin-top: 3rem;
+    width: 29.81rem;
+    .heading{
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: .5rem;
+    }
+  }
+}

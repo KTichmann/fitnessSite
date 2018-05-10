@@ -1,0 +1,29 @@
+header{
+  color: #000;
+  height: 3rem;
+  padding: 0 11.26rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  img{
+    height: 2.5rem;
+  }
+  .socialMedia{
+    width: 9rem;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+  nav{
+    width: 28.875rem;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: .75rem;
+    a{
+      font-weight: 700;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

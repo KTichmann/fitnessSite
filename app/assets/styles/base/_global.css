@@ -1,0 +1,32 @@
+body{
+  font-family: Lato;
+  color: #fff;
+}
+
+.title{
+  text-transform: uppercase;
+}
+
+.title-main{
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: .3rem;
+}
+
+.title-secondary{
+  font-size: 2.31rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.title-tertiary{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.description{
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.3rem;
+}
