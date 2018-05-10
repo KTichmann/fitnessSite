@@ -3,18 +3,22 @@
   box-sizing: border-box;
   height: 35rem;
   display: flex;
-  padding: 4.47rem 8rem;
+  padding: 4.47rem 8%;
   padding-right: 0;
   align-items: center;
   &__title{
+    margin-right: 7%;
     .title-secondary{
-      margin-right: 4rem;
+      width: 13rem;
       color: black;
     }
   }
   &__blurb{
+    max-width: 18rem;
+    height: 80%;
     &-first{
-      padding-left: 3rem;
+      padding-left: 2%;
+      /* padding-left: 3rem; */
     }
     h1{
       position: relative;
@@ -27,7 +31,7 @@
     }
     p{
       color: black;
-      margin-top: 3rem;
+      margin-top: 2rem;
       padding-left: 2rem;
       line-height: 1.3rem;
     }
@@ -42,7 +46,7 @@
     z-index: -1;
     top: 4.5rem;
     right: 0;
-    width: 60rem;
+    width: 70vw;
     height: 16rem;
     background-color: $mainOrange;
   }

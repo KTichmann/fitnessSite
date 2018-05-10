@@ -377,7 +377,7 @@ body{
 header{
   color: #000;
   height: 3rem;
-  padding: 0 11.26rem;
+  padding: 0 10%;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -450,7 +450,7 @@ header nav a{
 
 .titleSection__wording{
     width: 31.5rem;
-    padding-left: 43.3rem;
+    padding-left: 48%;
     padding-top: 3rem;
   }
 
@@ -491,18 +491,28 @@ header nav a{
   box-sizing: border-box;
   height: 35rem;
   display: flex;
-  padding: 4.47rem 8rem;
+  padding: 4.47rem 8%;
   padding-right: 0;
   align-items: center;
 }
 
+.about__title{
+    margin-right: 7%;
+  }
+
 .about__title .title-secondary{
-      margin-right: 4rem;
+      width: 13rem;
       color: black;
     }
 
+.about__blurb{
+    max-width: 18rem;
+    height: 80%;
+  }
+
 .about__blurb-first{
-      padding-left: 3rem;
+      padding-left: 2%;
+      /* padding-left: 3rem; */
     }
 
 .about__blurb h1{
@@ -517,7 +527,7 @@ header nav a{
 
 .about__blurb p{
       color: black;
-      margin-top: 3rem;
+      margin-top: 2rem;
       padding-left: 2rem;
       line-height: 1.3rem;
     }
@@ -533,7 +543,7 @@ header nav a{
     z-index: -1;
     top: 4.5rem;
     right: 0;
-    width: 60rem;
+    width: 70vw;
     height: 16rem;
     background-color: #FB8B24;
   }
@@ -572,6 +582,10 @@ header nav a{
           font-weight: 700;
         }
 
+.product table tr td .description{
+          width: 80%;
+        }
+
 .product__img{
     width: 40vw;
     position: relative;
@@ -579,20 +593,21 @@ header nav a{
 
 .product__img img{
       position: absolute;
-      width: 500px;
+      width: 100%;
       height: 600px;
-      left: -12rem;
-      top: 50%;
+      left: -30%;
+      top: 50.3%;
       -webkit-transform: translateY(-47.5%);
               transform: translateY(-47.5%);
     }
 
 .product-right .product__description{
-      padding-left: 15.9rem;
+      padding-left: 13%;
     }
 
 .product-right .product__img img{
-        left: 10rem;
+        width: 100%;
+        left: 48%;
       }
 
 .product .section{
@@ -614,7 +629,7 @@ header nav a{
 }
 
 .watch .orange{
-    padding-left: 15rem;
+    padding-left: 15%;
     background-color: #FB8B24;
     height: 19.73rem;
     width: 100%;
@@ -635,11 +650,11 @@ header nav a{
     }
 
 .watch img{
-    width: 500px;
+    width: 40%;
     height: 450px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
@@ -728,7 +743,7 @@ header nav a{
 .contact-details{
   display: flex;
   justify-content: space-between;
-  padding: 3.75rem 16rem;
+  padding: 3.75rem 18%;
   color: black;
 }
 
