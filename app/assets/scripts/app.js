@@ -1,1 +1,0 @@
-import SliderApp from './sliderApp'
